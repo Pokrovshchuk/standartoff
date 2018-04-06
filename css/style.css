@@ -1,0 +1,875 @@
+body{
+    background: #fff;
+    margin: 0;
+    padding:0;
+}
+@font-face {
+    font-family: HouseCasual;
+    src: url(../fonts/9371.otf);
+}
+@font-face {
+    font-family: "ImpactRegular";
+    src: url("../fonts/ImpactRegular.eot");
+    src: url("../fonts/ImpactRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ImpactRegular.woff") format("woff"),
+    url("../fonts/ImpactRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.gal .tratata{
+    display: none;
+}
+.slide{
+   width: 100%;
+   height: 100%;
+}
+.slide img{
+    display: block;
+    margin: 0 auto;
+}
+/* .qwe{
+    min-height: 300px;
+} */
+/*==============================MENU======================================*/
+a {
+  text-decoration: none;  
+}
+nav {
+  position: relative;
+} 
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    right: -60px;
+    top: 100%;    
+    background: rgba(0,0,0,0.5);
+    min-width: 12em;
+    padding: 0;   
+}
+.dropdown-menu li {
+    list-style-type: none;    
+    border: 1px solid grey;
+}
+.dropdown-menu li{
+    border-top: none;
+}
+.dropdown-menu li a {
+    text-decoration: none;
+    padding: .5em 1em;
+    display: block;
+    color: #e4e2de;
+    font-weight: 600;
+    text-align: center;
+}
+.dropdown-menu li a:hover{
+    color: #fff;
+    transition: 0.4s;
+    font-weight: 900;
+}
+.dropdown-toggle{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-toggle:focus{
+    text-decoration: none;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+#karandash-1{
+    display: none;
+}
+/*==============================HEADER=========================================*/
+header{
+    width: 100%;   
+    background: url("../img/bg/header-bg.jpg") no-repeat top center;
+    background-size: cover;
+    padding-bottom: 50px;   
+}
+header .container-fluid{
+    background: rgba(0,0,0,0.5);    
+    width: 100%;
+    z-index: 9999;
+}
+#top-menu{
+    position: fixed;
+}
+.top-items a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.my-row-new{
+    display: none;
+}
+.my-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.my-row p{
+    margin: 0;
+}
+.items p, .items a.dropdown-toggle{
+    color: #fff;
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2;
+}
+.item3 a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+#logo img{    
+    padding: 10px 0;
+    margin-top: 6%;
+}
+#center-block{    
+    margin: 0 auto;
+    background: #fff;  
+    box-shadow: 0px 4px 20px #000;  
+}
+#center-block .row{
+    padding: 15px 0;
+}
+#korpys-meb{
+    max-width: 85%;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;    
+}
+.punct-menu{
+    font-family: HouseCasual;
+    font-size: 36px;
+    color: #292B2C;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+.punct-menu:hover {
+    text-decoration: none;
+    color: #9a0707;
+}
+.punct-menu:focus {
+    text-decoration: none;
+    color: #9a0707;
+    outline: none;
+}
+.slick-list {
+    box-shadow: 0 5px 30px #333;
+}
+.slide{
+    height: 90%;
+}
+#advantages{
+    background: url(../img/center-items/bg-advantages.png) no-repeat;
+    background-size: 100% 100%;       
+}
+#advantages div img{
+    display: block;
+    margin:0 auto;
+}
+ #advantages div p{
+    text-align: center;
+    text-transform: uppercase;
+    color: #801e00;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: ImpactRegular, sans-serif;
+ }
+ /*==============================================================================*/
+ .adv-bl:hover::after {
+    content: attr(data-title);
+    display: block;
+    width: 295px;
+    min-height: 30px;
+    top: 105%;
+    position: absolute;
+    left: -50%;
+    font: 16px inglobal;
+    padding: 15px 20px;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    border-radius: 3px;
+    z-index: 105;
+    color: #fff;
+}
+/*==============================WORKS=========================================*/
+#works{
+    background: url(../img/bg/new-work-bg.jpg) no-repeat top center;
+    background-size: cover; 
+}
+.row-1{
+    margin-bottom: 50px;
+}
+#pict1 img{
+    float: right;
+}
+#pict1{
+    background: url(../img/bg/pict1.jpg) no-repeat top center;
+    background-size: cover;
+    margin-top: -60px;
+    box-shadow: -5px 11px 20px rgba(0, 0, 0, 0.75);
+}
+#pict2{
+    background: url(../img/bg/pict2.jpg) no-repeat top center;
+    background-size: cover;
+    margin-bottom: -60px;
+    box-shadow:  5px 11px 20px rgba(0, 0, 0, 0.75)
+}
+#works h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 2.5;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.5)
+}
+#photo{
+    margin-top: 10%;
+}
+#work-text{
+    background: url(../img/bg/brikcs.png) no-repeat top center;
+    background-size: 100% 100%;
+    margin-top: 65px;     
+    height: 250px;    
+}
+ #work-text p{
+    color: #fff; 
+    text-shadow: 2px 2px 10px #000
+} 
+#work-text p a{
+    color: #fff;
+    background: linear-gradient(to top, #381111, #8f1b1b);
+    padding: 2px 8px 7px;
+    border-radius:4px;      
+}
+#work-wrap{
+    height: 150px;
+    margin:55px;
+    overflow-y: scroll;
+
+}
+#work-text p a:hover{
+    text-decoration: none;    
+    background: linear-gradient(to top,#4f1616, #b21818);
+    transition: 0.7s;
+}
+#work-text p a:focus{
+    text-decoration: none;
+    outline: none;
+}
+#galls img{
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.75);
+}
+.gal a img{
+    box-shadow: 0 4px 10px #000;
+}
+.gal a{
+    display: block; 
+    position: relative;   
+}
+.gal a:focus{
+    outline: none;
+}
+.gal a p{
+    position: absolute;
+    margin: 0;
+    padding-top: 30%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.7);
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.gal a p:hover{
+    background-color: rgba(0,0,0,0);
+    color: rgba(255,255,255,0.0);
+    transition: 0.4s
+}
+#work-btn{      
+    margin:0 auto 20px;
+    background: #450f0f;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #430405;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#work-btn:hover{
+    text-decoration: none;
+    background-color: #911111;
+    transition: 0.4s;
+}
+/*==============================PROCES=========================================*/
+#proces{
+    background: url(../img/bg/proces-bg.jpg) no-repeat top center;
+    background-size: cover;    
+}
+#proces h2{
+    text-align: center;
+    color: #fff;    
+    line-height: 2;
+    text-transform: uppercase;
+}
+#proces .container-fluid{
+    margin-top:3%;
+}
+.etaps{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.etaps div{
+    position: relative; 
+    min-height: 300px;
+}
+.etaps div a{
+    position: absolute;
+    bottom: 0;
+}
+
+.etaps .fa{
+    font-size: 24px;
+    height: 70px;
+    width: 70px;
+    background: #450f0f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    margin-bottom: 10px;}
+
+.proces-punct{
+    margin-bottom: 15px;
+}
+.proces-punct a{
+    float: right;
+    color: #fff;
+    background: #450f0f;
+    padding: 1px 5px;
+    border:1px solid #430405;
+    border-radius: 5px;
+}
+.proces-punct a:hover{
+    text-decoration: none;
+    background-color: #911111;
+    transition: 0.4s;
+}
+.proces-punct a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.proces-punct .fa{
+    font-weight: bold;
+    min-width: 30px;
+}
+.etaps a{
+    background: #450f0f;    
+    color: #fff;    
+    border-radius: 5px;
+    border:1px solid #430405;
+}
+.etaps a:hover{
+    text-decoration: none;
+    background-color: #911111;
+    transition: 0.4s;
+}
+.etaps a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.proces-content{
+    margin-bottom: 30px;
+}
+
+/*==============================REVIEWS=========================================*/
+#reviews{
+    background: url(../img/bg/rev-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding-bottom: 40px; 
+    box-shadow:inset 0 0 30px 8px #3d3a3a;   
+}
+#reviews .col-md-8{
+    margin: 0 auto;
+}
+#reviews h2{
+    text-align: center; 
+    padding-top: 2%; 
+}
+.rev img{
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.rev p{
+    margin-top:30px;
+}
+.some-info{
+    margin-top: 50px;
+    background: rgba(0,0,0,0.6);   
+}
+.some-info h3{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.some-info p{
+    color: #fff;
+    margin: 20px 0;
+}
+
+/*==============================FOOTER=========================================*/
+footer{
+    background: url(../img/bg/footer-bg.jpg) repeat-y top center;    
+    background-size: 100%;
+    box-shadow:inset 0 0 30px 8px #000;    
+}
+footer h2{
+    text-align: center;
+    color: #fff;
+}
+footer .desc {
+    color: #fff;
+    text-align: center;
+}
+#contact{
+    padding-top: 50px;
+    background-color: rgba(0,0,0,0.4);
+}
+.contacts-item{
+    color: #fff;
+}
+
+#contacts{
+    background: rgba(0,0,0,0.5);    
+    margin-bottom: 40px;
+}
+#contacts .row{
+    margin-top: 50px;
+    text-align: center;
+}
+#contact-form{
+    margin: 0 0 30px;
+}
+#contact-form .col-md-8{
+    padding: 0;
+}
+#contact-form .col-md-8 h3{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    text-shadow: 2px 4px 5px #000;
+}
+footer form{
+    padding-bottom: 50px;
+}
+form .form-control{
+    margin-bottom: 7px;
+    box-shadow: 0 4px 20px 0px #000;
+}
+form textarea{
+    height: 128px;
+}
+.copyright{
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+}
+.copyright p{
+    margin: 0 auto;
+    padding: 7px 0;
+}
+.copyright a{
+    color: #fff;
+    font-weight: bold;        
+}
+.copyright a:focus{
+    outline: none;
+}
+#map{
+    width: 100%;
+    height: 308px;
+    box-shadow: 0 4px 20px 2px #000;
+}
+.btn{
+    background-color: #450f0f;
+    color: #fff;
+}
+.btn:hover{
+    background: #911111;
+}
+footer .fa:before{
+    font-size: 30px;
+}
+/*==============================BACK-TO-TOP=========================================*/
+#back-top {
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    right: 4%;
+    z-index:99991;
+
+    }
+#back-top a{
+    padding-top: 5px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    width: 80px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display:block;
+    text-decoration:none;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    text-align: center;
+     
+    }
+ 
+#back-top a:hover{    
+    background: rgba(0, 0, 0, 0.9);
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    color: #fff;
+    height: 30px;
+    }
+/*=========================================KILOMETR-MEDIA==========================================*/
+/*======================================1500=============================================*/
+@media (max-width: 1500px){
+    .etaps div{
+        min-height: 360px;
+    }
+}
+/*======================================1280=============================================*/
+
+@media (max-width: 1280px){
+    .gal a p{
+        font-size: 20px;
+    }
+    .etaps div{
+        min-height: 410px;
+    }
+}
+/*======================================1200=============================================*/
+@media (max-width: 1200px){
+    .gal a p{
+        font-size: 17px;
+    }
+    #works h2{
+        line-height: 1.5;
+    }
+    #proces .container-fluid{
+        margin-top: 5%;
+    }
+    .etaps div{
+        min-height: 450px;
+    }
+}
+/*=====================================1024==============================================*/
+@media (max-width: 1024px ){
+    #photo{
+        margin-top: 13%;
+    }
+    .gal a p{
+        font-size: 16px;
+    }
+    .etaps div{
+        min-height: 490px;
+    }
+}
+/*=====================================980==============================================*/
+@media (max-width: 980px){
+    .gal a p{
+        font-size: 14px;
+        margin-top:0;
+    }
+    #works h2{
+        font-size: 26px;
+    }
+    .etaps a{
+        padding: 7px 9px;
+    }
+     #proces .container-fluid{
+        margin-top: 8%;
+    }
+     #work-text{        
+        font-size: 13px;
+    }
+    #pict1{
+        margin-top: -30px;
+    }
+    #pict2{
+        margin-bottom: -30px;
+    }
+    .etaps div{
+        min-height: 520px;
+    }
+}
+/*======================================900=============================================*/
+@media (max-width: 900px){
+    .etaps div{
+        min-height: 530px;
+    }
+}   
+/*======================================860=============================================*/
+
+@media (max-width: 860px){
+    .gal a p{
+        font-size: 12px;
+    }
+}    
+/*======================================768=============================================*/
+@media (max-width: 768px){
+    nav .dropdown-toggle ul.dropdown-menu{
+        right:-15px;
+    }        
+    .punct-menu{
+        font-size: 35px;
+    }   
+    .etaps .col-sm-10{        
+        margin-top: 40px;
+    }
+    #comp{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }    
+}
+@media(max-width: 767px){
+    #pict1, #pict2{
+        display: none;
+    }
+    .rev-photo{
+        display: block;
+        margin:0 auto;
+    }
+    #works h2{        
+        font-size: 32px;
+        line-height: 3;
+    }
+    #proces{
+        background: url(../img/bg/mobile-bg-proces.jpg) no-repeat top center;
+        background-size: cover;        
+    }
+    #reviews{
+        box-shadow: none;
+    }
+    footer{
+        background: url(../img/bg/mobile-bg-footer.jpg) no-repeat top center;
+        background-size: cover;
+        box-shadow: none;
+    }
+    #work-wrap{
+        height: 142px;
+    }
+    .items p{
+        font-size: 16px;
+    }   
+    .gal a p{
+        font-size: 22px;
+    } 
+    .etaps div{
+        min-height: 250px;
+        text-align: center;
+    }
+    .etaps div a{
+        position: relative;
+    }
+    .dropdown-menu{
+        left: -113px;
+        right: 0;
+    }
+    .adv-bl:hover::after {    
+    width: 285px;    
+    left: -70%;
+    }
+    .adv-bl:last-child:hover::after{
+        width: 285px;    
+        left: -160%;
+    }
+
+}
+/*=======================================640============================================*/
+@media (max-width:640px ){
+    
+}
+/*====================================575===============================================*/
+@media (max-width:575px ){
+    #works{
+        background: url("../img/bg/mobile-bg-works.jpg") no-repeat top center;
+        background-size: cover;
+    }
+    #works h2{
+        line-height: 2.5;
+    }
+    .contacts-item p{    
+        font-size: 24px;
+    }
+    .row-2{
+        margin-top: 50px;
+    }
+    .gal:nth-child(4n){
+        margin-top: 0;
+    }
+    .my-row{
+        flex-direction: column;
+    }
+    .my-row{
+        display: none;
+    }
+    .my-row-new{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-row-new p{
+        margin: 0;
+    }
+    .my-row-new-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .my-row-new .item2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .item2 img{
+        margin-right: 5px;
+    }
+    .my-row-new-2{
+        order: -1;
+    }
+    .dropdown-menu{
+        margin-top: 0px;
+    }
+    #advantages .col-12{
+        margin-bottom: 30px;
+    }
+    #logo img {
+    margin-top: 13%;
+    }
+    #karandash{
+        display: none;
+    }
+    #karandash-1{
+        display: block;        
+    }
+    #karandash-1 img{
+        max-width: 150%;
+        height: auto;
+    }
+    .dropdown-menu {
+    left: -55px;
+    right: 0;
+    }
+    .adv-bl:hover::after, .adv-bl:last-child:hover::after {        
+        left: 24%;
+    }
+}
+/*====================================520===============================================*/
+@media (max-width:520px ){
+    .items p, .items a.dropdown-toggle{
+         font-size: 16px;
+     }    
+    .copyright p{
+        text-align: center;
+    }
+     #works h2{        
+        font-size: 32px;
+        line-height: 2;
+    }    
+    .etaps div{
+        min-height: 280px;
+    }
+    .dropdown-menu {
+        left: -75px;
+        right: 0;
+    }
+}
+/*===================================420================================================*/
+@media (max-width: 420px ){
+    .items p{
+         font-size: 13px;
+     }
+     #proces h2{
+        line-height: 1;
+     }
+     .etaps div{
+        min-height: 300px;
+    }
+    .punct-menu {
+        font-size: 27px;
+    }
+    .dropdown-menu {
+        left: -85px;
+        right: 0;
+    }
+    .adv-bl:hover::after, .adv-bl:last-child:hover::after {        
+        left: 14%;
+    }
+}
+/*==================================360=================================================*/
+@media (max-width:360px ){
+    .items p{
+         font-size: 12px;
+     }
+     .slick-track{
+        width: 99%;
+     }
+      #works h2{   
+        font-size: 28px;     
+        line-height: 1.5;
+    }
+    .dropdown-menu{
+        margin-top: 2px;
+    }
+    .etaps div{
+        min-height: 325px;
+    }
+    .punct-menu {
+    font-size: 23px;
+    }
+    .dropdown-menu {
+        left: -97px;
+        right: 0;
+    }
+    .adv-bl:hover::after, .adv-bl:last-child:hover::after {        
+        left: 8%;
+    }
+
+}
+/*===================================320================================================*/
+@media (max-width:320px ) {
+    .items p {
+        font-size: 11px;
+    }
+    .adv-bl:hover::after, .adv-bl:last-child:hover::after {        
+        left: 2%;
+    }    
+}
